@@ -2,7 +2,7 @@
 Inspection Master - Changes (Saneesh):
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Create and use different sequences for each inspection type:
+asd fasd Create and use different sequences for each inspection type:
 
     Inspection Type 1 - Use the current sequence
     Inspection Type 2 - Sequence should start from 200001  (Seq Name - INSP_TYPE_2)
@@ -10,7 +10,7 @@ Create and use different sequences for each inspection type:
     Inspection Type 4 - Sequence should start from 400001  (Seq Name - INSP_TYPE_4)
     Inspection Type 5 - Sequence should start from 500001  (Seq Name - INSP_TYPE_5)
 
-Common:
+ads asd sadfCommon:
 
     a. If a previous definition is there for the SOLID under the same inspection type which is in status <= 200, do not permit to define a new ID
     b. In inspection types other than Inspection Type 5, if a previous definition is there for the SOLID under the same inspection type which is in status >= 300, display/validate the Review period from as previous inspection end date + 1

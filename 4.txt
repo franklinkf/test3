@@ -1,0 +1,43 @@
+
+
+o	Update the missing pickups related to work class, designation and role
+o	Change the user rights
+?	Tables
+•	PARAM_MENU_MASTER
+•	PARAM_MAINT_MASTER
+•	PARAM_UPLOAD
+•	PARAM_REPORT_MASTER
+•	PARAM_PROCEDURE
+?	Logic
+•	Wherever user right is provided as ALL
+o	Change the same to D (Designation) - OAS,ASM,MAN,SEM,CHM,AGM,DGM,GNM,CHR
+o	Else ensure that the existing definition will not cover EXU and OAT designation
+
+o	Menus where right for OATD to be permitted
+
+?	Letter Master                                                               LM                        Menu
+?	Letter Action                                                                 LA                         Menu
+?	Communication Search                                             CS                         Menu
+?	Procedure                                                                      P                           Menu
+?	Tech Support                                                                TS                         Menu
+?	Maintenance                                                                M                          Menu
+?	Report                                                                            R                           Menu
+?	View Report                                                                  VR                         Menu
+?	Menu Search                                                                MS                        Menu
+?	Change Password                                                       CP                         Menu
+?	Letter Search                                                                LS                          Menu
+
+?	Request to Change SOL                                              RCS                        Maintenance
+?	Update User Keyword                                                UUK                        Maintenance
+
+?	Letter Master Report                                                  4168                       Report
+?	Report of Communications                                        4191                       Report
+
+?	Personal Letters                                                           8014                       Procedure
+?	Communications - Personalised Services                8021                       Procedure
+?	Communication Search                                              8022                       Procedure
+?	Request to Change SOL                                              8028                       Procedure
+
+•	User Module
+
+o	Update the missing pickups related to work class, designation and role

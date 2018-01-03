@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Inspection Master - Changes (Saneesh):
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Create and use different sequences for each inspection type:
+
+    Inspection Type 1 - Use the current sequence
+    Inspection Type 2 - Sequence should start from 200001  (Seq Name - INSP_TYPE_2)
+    Inspection Type 3 - Sequence should start from 300001  (Seq Name - INSP_TYPE_3)
+    Inspection Type 4 - Sequence should start from 400001  (Seq Name - INSP_TYPE_4)
+    Inspection Type 5 - Sequence should start from 500001  (Seq Name - INSP_TYPE_5)
+
+Common:
+
+    a. If a previous definition is there for the SOLID under the same inspection type which is in status <= 200, do not permit to define a new ID
+    b. In inspection types other than Inspection Type 5, if a previous definition is there for the SOLID under the same inspection type which is in status >= 300, display/validate the Review period from as previous inspection end date + 1
+
+Inspection Type 1 - Regular Inspection:
+
+    a. Only inspection wing users can define an inspection    
+
+Inspection Type 2 - Concurrent Audit:
+
+    a. Regional office can define audit coming under their RO
+    b. A user can define audit provided the user is included in the inspectors pool for the SOLID opted under this inspection type
+    c. If officer, same user verification can be enabled
+    d. Inspection from date and to date should be the beginning of the month and the end of same month
+
+Inspection Type 3 - Regional Managers Visit:
+
+    a. Regional office can define audit coming under their RO. Same user verification can be permitted, if the checker is an officer.
+    b. A user can define audit provided he is the Regional Manager of the RO under which the SOLID is coming. In such case, same user verification can be permitted.
+    c. If officer, same user verification can be enabled
+
+Inspection Type 4 - Ongoing Rectification Visit:
+
+    a. Regional office can define audit coming under their RO. Same user verification can be permitted, if the checker is an officer.
+    b. A user can define audit provided the user is included in the Inspectors Pool for the SOLID opted under this inspection type. In such case, same user verification can be permitted.
+    c. If officer, same user verification can be enabled
+
+Inspection Type 5 - Compliance Test Checking:
+
+    a. Regional office can define audit coming under their RO. Same user verification can be permitted, if the checker is an officer.
+    b. A user can define audit provided the user is included in the Inspectors Pool for the SOLID opted under this inspection type. In such case, same user verification can be permitted.
+    c. If officer, same user verification can be enabled
+    d. Review Date From and To can be the same date

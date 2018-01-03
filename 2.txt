@@ -1,0 +1,51 @@
+ucon.ConnectionString = "Server=localhost;Uid=fran1875;Password=HMLNKil8;Database=user;"
+
+con.ConnectionString = "Server=localhost;Uid=fran1875;Password=HMLNKil8;Database=ins;"
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Maintenance XXXXX - Inspectors Pool:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Fields                              Field Type              Default                 Remarks        
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Mode                                Key                     A                       A (Add)/D (Delete)/V (Verify)/I (Inquire) L (Lock)
+    SOLSET                              Key                     SOLSET of RO            
+    Inspection Type                     Key                     
+
+    Inspecting Officer                  Child                   
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Search:
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Inspection Type                     Display the code and description of the following inspection types - 2,4,5
+                                        Enable text search
+    Inspecting Officer                  Display the User ID, Staff number, Name and present branch of staff members from param_user_master
+                                        Enable text search
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    What Next:
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Link another inspecting officer
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Validations:
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    a. A Staff member should not be permitted to link twice if he is already linked to the same solset and inspection type and lying in <= 51 status
+    b. Inspection types allowed - 2,4,5
+    c. In case of 5 - Compliance Audit, permit only RM Wing users to define the pool
+    d. In case of 2 - Concurrent Audit, permit inspecton wing users to define the pool
+    d. In case of 4 - Ongoing Rectification, permit only the respective regional office to define the pool
+    e. In all cases, bring maker checker concept for linking. Lock facility can be enabled for any officer. Maker can be enabled for clerical staff also
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Table:
+    ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    DROP TABLE IF EXISTS INSPECTOR_POOL;
+    CREATE TABLE INSPECTOR_POOL
+    (
+        IP_SOLSET               VARCHAR(8),
+        IP_INSP_TYPE            VARCHAR(5),
+        IP_INPS_OFF_USERID      VARCHAR(15),
+        IP_RECORD_STATUS        INT(2),
+        IP_UUSER                VARCHAR(15),
+        IP_UDATE                DATETIME,
+        IP_LUSER                VARCHAR(15),
+        IP_LDATE                DATETIME
+    ) Comment = 'To store the details of inspectors pooled under different inspection types';
+    CREATE INDEX INSPECTOR_POOL_IDX1 ON INSPECTOR_POOL (IP_INSP_TYPE,IP_SOLSET,IP_INPS_OFF_USERID);
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------

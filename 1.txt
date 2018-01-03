@@ -1,0 +1,285 @@
+@@@@""""""
+
+Tablets - Eventhough the app will work on tablets, screens are not optimized for tablet view. Will be resolving this issue at the earliest. 
+
+E:\cbs\eMails\Sent\eMail Sent - 20171231 164822 From - franklinkf@gmail.com To - 'ITWing.KGB@gmail.com'; 'Manoj CM IT Wing/FI Cell (manoj.s@keralagbank.com)'; 'tv.ragesh@gmail.com' Sub - Work Arrangement.msg
+
+----------------------------------------------------------------------------------------------------------------------------------
+SMS XXXXX - Letter Module - Activities as on XX-XX-XXXX:
+----------------------------------------------------------------------------------------------------------------------------------
+Letter Module - Activities as on XX-XX-XXXX (SOLID):
+
+Creation - XX
+Acknowledgement - XX
+Updates - XX
+Forwards - XX
+Queries - XX
+Replies - XX
+Closure - XX
+Deferred - XX
+Dropped - XX
+Reopened - XX
+
+Letter Module
+
+Variants:
+
+1. Bank as a whole      -       Sent To     -   Chairman, GMs, IT Wing CM, MIS Team
+2. RO as a whole        -       Sent To     -   CUG of Respective RO
+3. SOL Wise             -       Sent To     -   CUG of respective SOL (If ITWNG, send to MIS Team)
+
+Data already generated for the email - Letters Module - Activities
+In case of SMS related to Bank as a whole, display KGB in the SOLID brackets. In case of SMS related to RO as a whole, display SSROXXX
+
+----------------------------------------------------------------------------------------------------------------------------------
+SMS XXXXX - Pendency of letters lying with the SOL as on XX-XX-XXXX:
+----------------------------------------------------------------------------------------------------------------------------------
+
+Pendency of letters lying with the SOL as on XX-XX-XXXX (SOLID):
+
+Total - XXXX
+
+Pending
+
+> 7 Days - XXXX
+> 14 Days - XXXX
+> 30 Days - XXXX
+
+Letters Module
+
+Variants:
+
+1. Bank as a whole      -       Sent To     -   Chairman, GMs, IT Wing CM, MIS Team
+2. RO as a whole        -       Sent To     -   CUG of Respective RO
+3. SOL Wise             -       Sent To     -   CUG of respective SOL (If ITWNG, send to 
+
+Data already generated for the email - Letters Module - Status of Letters pending for closure
+In case of SMS related to Bank as a whole, display KGB in the SOLID brackets. In case of SMS related to RO as a whole, display SSROXXX
+
+----------------------------------------------------------------------------------------------------------------------------------
+SMS XXXXX - Pendency of letters initiated by the SOL as on XX-XX-XXXX:
+----------------------------------------------------------------------------------------------------------------------------------
+
+Pendency of letters initiated by the SOL as on XX-XX-XXXX (SOLID):
+
+Total - XXXX
+
+Pending
+
+> 7 Days - XXXX
+> 14 Days - XXXX
+> 30 Days - XXXX
+
+Letters Module
+
+Variants:
+
+1. Bank as a whole      -       Sent To     -   Chairman, GMs, IT Wing CM, MIS Team
+2. RO as a whole        -       Sent To     -   CUG of Respective RO
+3. SOL Wise             -       Sent To     -   CUG of respective SOL (If ITWNG, send to 
+
+Data already generated for the email - Letters Module - Status of Letters pending for closure
+In case of SMS related to Bank as a whole, display KGB in the SOLID brackets. In case of SMS related to RO as a whole, display SSROXXX
+
+----------------------------------------------------------------------------------------------------------------------------------
+SMS XXXXX - Letter Module - Processes and max time taken as on XX-XX-XXXX:
+----------------------------------------------------------------------------------------------------------------------------------
+
+Letter Module - Processes and max time taken as on XX-XX-XXXX
+
+Display Sub Process Name, Total Number and Max Time Taken in format SP Name - TotNo/MaxTimeTaken
+
+Sent to - MIS Team Only
+
+Data already generated for the email - Letters Module - Processes and time taken
+
+----------------------------------------------------------------------------------------------------------------------------------
+SMS XXXXX - Letters Module - Pendency of letter inwards lying with the SOL as on XX-XX-XXXX:
+----------------------------------------------------------------------------------------------------------------------------------
+
+Pendency of letter inwards lying with the SOL as on XX-XX-XXXX (SOLID):
+
+Total - XXXX
+
+Pending
+
+> 7 Days - XXXX
+> 14 Days - XXXX
+> 30 Days - XXXX
+
+Letters Module
+
+Variants:
+
+1. Bank as a whole      -       Sent To     -   Chairman, GMs, IT Wing CM, MIS Team
+2. RO as a whole        -       Sent To     -   CUG of Respective RO
+3. SOL Wise             -       Sent To     -   CUG of respective SOL (If ITWNG, also send to MIS Team)
+
+Data already generated for the email - Letters Module - Status of Letter Inwards pending for closure
+In case of SMS related to Bank as a whole, display KGB in the SOLID brackets. In case of SMS related to RO as a whole, display SSROXXX
+
+----------------------------------------------------------------------------------------------------------------------------------
+SMS XXXXX - Letters Module - Pendency of letter inwards initiated by the SOL as on XX-XX-XXXX:
+----------------------------------------------------------------------------------------------------------------------------------
+
+Pendency of letter inwards initiated by the SOL as on XX-XX-XXXX (SOLID):
+
+Total - XXXX
+
+Pending
+
+> 7 Days - XXXX
+> 14 Days - XXXX
+> 30 Days - XXXX
+
+Letters Module
+
+Variants:
+
+1. Bank as a whole      -       Sent To     -   Chairman, GMs, IT Wing CM, MIS Team
+2. RO as a whole        -       Sent To     -   CUG of Respective RO
+3. SOL Wise             -       Sent To     -   CUG of respective SOL (If ITWNG, also send to MIS Team)
+
+Data already generated for the email - Letters Module - Status of Letter Inwards pending for closure
+In case of SMS related to Bank as a whole, display KGB in the SOLID brackets. In case of SMS related to RO as a whole, display SSROXXX
+
+----------------------------------------------------------------------------------------------------------------------------------
+SMS XXXXX - Letters Module - Items qualify for day end check as on XX-XX-XXXX:
+----------------------------------------------------------------------------------------------------------------------------------
+
+Letters Module - Items qualify for day end check as on XX-XX-XXXX (SOLID):
+
+Total - XXXX
+
+Of which
+
+AAAAAAAA - XXXX
+AAAAAAAA - XXXX
+AAAAAAAA - XXXX
+
+Letters Module
+
+Variants:
+
+1. Bank as a whole      -       Sent To     -   Chairman, GMs, IT Wing CM, MIS Team
+2. RO as a whole        -       Sent To     -   CUG of Respective RO
+3. SOL Wise             -       Sent To     -   CUG of respective SOL (If ITWNG, also send to MIS Team)
+
+Data already generated for the email - Letters Module - Items qualify for day end check for the day
+In case of SMS related to Bank as a whole, display KGB in the SOLID brackets. In case of SMS related to RO as a whole, display SSROXXX
+Activity name should be shortened to a meaningful short name
+
+----------------------------------------------------------------------------------------------------------------------------------
+SMS XXXXX - Letters Module - Pendency of letters lying with sub department as on XX-XX-XXXX:
+----------------------------------------------------------------------------------------------------------------------------------
+
+Pendency of letters lying with sub departments as on XX-XX-XXXX (SOLID):
+(Sub Dept/Total/>7D/>14D/>30D)
+
+XXXXX - XX/XX/XX/XX
+XXXXX - XX/XX/XX/XX
+XXXXX - XX/XX/XX/XX
+XXXXX - XX/XX/XX/XX
+XXXXX - XX/XX/XX/XX
+XXXXX - XX/XX/XX/XX
+XXXXX - XX/XX/XX/XX
+
+Letters Module
+
+Variants:
+
+SOL Wise             -       Sent To     -   CUG of respective SOL (If ITWNG, also send to MIS Team)
+
+Data already generated for the email - Letters Module - Sub department wise pendency as on
+Send only to RO and HO Wings
+
+----------------------------------------------------------------------------------------------------------------------------------
+SMS XXXXX - Letters Module - Pendency of letters initiated by sub department as on XX-XX-XXXX:
+----------------------------------------------------------------------------------------------------------------------------------
+
+Pendency of letters initiated by sub departments as on XX-XX-XXXX (SOLID):
+(Sub Dept/Total/>7D/>14D/>30D)
+
+XXXXX - XX/XX/XX/XX
+XXXXX - XX/XX/XX/XX
+XXXXX - XX/XX/XX/XX
+XXXXX - XX/XX/XX/XX
+XXXXX - XX/XX/XX/XX
+XXXXX - XX/XX/XX/XX
+XXXXX - XX/XX/XX/XX
+
+Letters Module
+
+Variants:
+
+SOL Wise             -       Sent To     -   CUG of respective SOL (If ITWNG, also send to MIS Team)
+
+Data already generated for the email - Letters Module - Sub department wise pendency as on
+Send only to RO and HO Wings
+
+----------------------------------------------------------------------------------------------------------------------------------
+SMS XXXXX - Letters Module - Pendency of letters lying with you as on XX-XX-XXXX:
+----------------------------------------------------------------------------------------------------------------------------------
+
+Pendency of letters lying with you as on XX-XX-XXXX (SOLID):
+
+Total - XXXX
+
+Of which
+
+> 7 Days
+> 14 Days
+> 30 Days
+
+Letters Module
+
+Data already generated for the email - Letters Module - Sub department wise pendency as on
+Send only to the mobile number of responsible officers
+
+----------------------------------------------------------------------------------------------------------------------------------
+SMS XXXXX - Letters Module - Pendency of letters initiated by you as on XX-XX-XXXX:
+----------------------------------------------------------------------------------------------------------------------------------
+
+Pendency of letters initiated by you as on XX-XX-XXXX (SOLID):
+
+Total - XXXX
+
+Of which
+
+> 7 Days
+> 14 Days
+> 30 Days
+
+Letters Module
+
+Data already generated for the email - Letters Module - Sub department wise pendency as on
+Send only to the mobile number of responsible officers
+----------------------------------------------------------------------------------------------------------------------------------
+
+SOL 1:
+
+Sub Department AAAAA - 10 Letters Pending
+
+        Surya
+        Franklin
+        Suresh
+
+Sub Department BBBBB - 10 Letters Pending
+
+        Surya
+        Gibin
+        Venki
+
+
+Sub Department CCCCC - 10 Letters Pending
+
+        Suresh
+        Gibin
+        Venki
+
+
+Sub Department DDDDD - 10 Letters Pending
+
+        Surya
+        Franklin
+        Venki

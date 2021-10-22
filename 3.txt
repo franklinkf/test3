@@ -11,6 +11,8 @@ Create and use different sequences for each inspection type:
     Inspection Type 5 - Sequence should start from 500001  (Seq Name - INSP_TYPE_5)
 
 Common:
+vhghvhvh
+ghghgjg
 
     a. If a previous definition is there for the SOLID under the same inspection type which is in status <= 200, do not permit to define a new ID
     b. In inspection types other than Inspection Type 5, if a previous definition is there for the SOLID under the same inspection type which is in status >= 300, display/validate the Review period from as previous inspection end date + 1
